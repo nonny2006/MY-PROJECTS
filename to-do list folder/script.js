@@ -2,7 +2,7 @@ const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
 function addTask(){
-    if(inputBox.value===' '){
+    if(inputBox.value===' ' && inputBox.value.trim() === ' '){
         alert("Error!, No Input Made!!");
     }
     else{
